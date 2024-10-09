@@ -16,7 +16,7 @@ function App() {
           <Home/>
         </section>
           
-        <section id="projetos" className="h-screen max-w-7xl mx-auto p-5 sm:p-6 lg:p-8 sm:border-b border-zinc-600">
+        <section id="projetos" className="h-screen max-w-7xl mx-auto p-5 sm:p-6 lg:p-8 md:border-b border-zinc-600">
           <Projects/>
         </section>
 
