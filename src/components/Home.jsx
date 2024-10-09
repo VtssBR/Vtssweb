@@ -23,8 +23,7 @@ export default function Home() {
             <Cursor cursorColor='text-violet-500' />
           </span>
 
-          {/* Texto e botão com visibilidade controlada */}
-          <div className={`text-sm sm:text-md text-zinc-400 p-2 ${openText ? 'block' : 'hidden sm:block'}`}>
+          <div className={`text-sm sm:text-base text-zinc-400 p-2 ${openText ? 'block' : 'hidden sm:block'}`}>
             <p>
               {`Meu nome é Vitor, sou um Desenvolvedor focado em Front-End, 
                     construo e gerencio Websites, Aplicações Web e Automações
