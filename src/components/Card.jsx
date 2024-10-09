@@ -11,7 +11,7 @@ Card.propTypes = {
 
 export default function Card({src, alt, title, text, link}){
     return(
-            <div className='h-auto shadow-zinc-900 shadow-lg rounded-md p-2 '>
+            <div className='h-auto shadow-zinc-900 shadow-lg rounded-md p-2 transform transition-transform duration-300 hover:scale-110 '>
 
               <img src={src} alt={alt} className='w-1/2 h-auto m-auto justify-center p-2'/>
               
@@ -21,7 +21,7 @@ export default function Card({src, alt, title, text, link}){
                 </div>
                     <div className='flex justify-center items-center my-4'>
                     <a 
-                        className="rounded-md bg-violet-500 border-2 text-white border-transparent hover:border-slate-300 transform transition-transform duration-300 hover:scale-110 px-4 py-2" 
+                        className="rounded-md bg-violet-500 border-2 text-white border-transparent hover:border-slate-300 px-4 py-2" 
                         href={link} 
                         target="_blank" 
                         rel="noopener noreferrer"
