@@ -7,18 +7,53 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependências
+node_modules/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache do Vite
+.vite/
+
+# Tailwind JIT cache
+.tailwind/
+
+# Configurações locais do editor
+.vscode/
+!.vscode/extensions.json  # Permite versionar as extensões do VSCode
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Sistema operacional e cache específico
+Thumbs.db
+*.swp
+
+# Artefatos do Yarn
+.yarn/*
+.pnp.*
+.cache/
+
+# Artefatos do ESLint
+.eslintcache
+
+# Logs de inicialização do sistema
+npm-debug.log*
+
+# Configuração de debug para ferramentas de desenvolvimento
+.vscode/settings.json
+.vscode/launch.json

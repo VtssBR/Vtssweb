@@ -40,7 +40,7 @@ export default function Projects() {
           </div>
             <div className='flex items-center justify-center'>
                 <a href='#contato'>
-                <img src={seta} alt="seta para baixo" className=" mt-36 w-6 sm:w-10 cursor-pointer transform transition-transform duration-300 hover:scale-110" />
+                <img src={seta} alt="seta para baixo" className=" mt-10 sm:mt-36 w-6 sm:w-10 cursor-pointer transform transition-transform duration-300 hover:scale-110" />
                 </a>
             </div>
         </>
