@@ -47,7 +47,8 @@ Embora o site já esteja em deploy, você pode configurar e executar este projet
 
 ### Deploy
 
-O projeto está disponível em produção e pode ser acessado [aqui](https://vtssweb.onrender.com/) **Observação**: Como estou utilizando a versão gratuita do Render, o primeiro acesso pode demorar um pouco para carregar.
+O projeto está disponível em produção e pode ser acessado [aqui](https://vtssweb.onrender.com/) 
+**Observação**: Como estou utilizando a versão gratuita do Render, o primeiro acesso pode demorar um pouco para carregar.
 
 ### Uso
 
