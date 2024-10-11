@@ -2,7 +2,7 @@
 
 Este projeto é um portfólio web pessoal desenvolvido em React, com estilização utilizando Tailwind CSS, animações de digitação com o `react-simple-typewriter`, e um formulário de contato integrado com o serviço Email.js para o envio de mensagens.
 
-[aqui](https://vtssbr.github.io/Vtssweb/).
+[Acesse o aqui](https://vtssbr.github.io/Vtssweb/).
 
 ![Screenshot do meu portfólio](src/assets/screenshot.png)
 
@@ -15,11 +15,6 @@ Este projeto é um portfólio web pessoal desenvolvido em React, com estilizaç�
 * **Responsividade**: Interface adaptada para diferentes tamanhos de tela utilizando Tailwind CSS.
 
 ### Tecnologias
-
-![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/d/d6/Tailwind_CSS_Logo.svg)
-![Email.js](https://emailjs.com/img/logo.svg)
-![Vite](https://vitejs.dev/logo.svg)
 
 * **React**: Biblioteca JavaScript utilizada para a criação da interface do usuário.
 * **Tailwind CSS**: Framework de CSS utilitário para estilização rápida e eficiente.
@@ -44,15 +39,7 @@ Embora o site já esteja em deploy, você pode configurar e executar este projet
     npm install
     ```
 
-3. Crie um arquivo `.env` na raiz do projeto para configurar suas credenciais do Email.js:
-
-    ```bash
-    VITE_SERVICE_ID=seu-emailjs-service-id
-    VITE_TEMPLATE_ID=seu-emailjs-template-id
-    VITE_PUBLIC_KEY=sua-public-key-emailjs
-    ```
-
-4. Execute o projeto localmente:
+3. Execute o projeto localmente:
 
     ```bash
     npm run dev
