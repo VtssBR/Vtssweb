@@ -1,7 +1,7 @@
 import Card from './Card';
-import webhook from'../assets/webhook.png';
-import companies from'../assets/companies.png';
-import website from'../assets/website.png';
+import webhook from'../assets/hook.png';
+import companies from'../assets/empresa.png';
+import website from'../assets/internet.png';
 import seta from '../assets/seta.png';
 
 
@@ -12,7 +12,6 @@ export default function Projects() {
             <h1 className='text-2xl sm:text-4xl text-violet-500 font-bold p-2'>Projetos</h1>
             <p className='text-sm sm:text-base text-zinc-400 p-2 sm:text-center '>
               Nesta seção, apresento meus projetos, todos hospedados no meu GitHub.<br />
-                  Além da documentação, ofereço uma breve descrição de cada um.
             </p>
           </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 sm:mt-20 mt-5'>
