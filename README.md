@@ -2,7 +2,7 @@
 
 Este projeto é um portfólio web pessoal desenvolvido em React, com estilização utilizando Tailwind CSS, animações de digitação com o `react-simple-typewriter`, e um formulário de contato integrado com o serviço Email.js para o envio de mensagens.
 
-[Acesse o aqui](https://vtssweb.onrender.com/) **Observação**: Como estou utilizando a versão gratuita do Render, o primeiro acesso pode demorar um pouco para carregar.
+[Acesse o aqui](https://vtssweb.vercel.app/) **Observação**: Como estou utilizando a versão gratuita do Render, o primeiro acesso pode demorar um pouco para carregar.
 
 ![Screenshot do meu portfólio](src/assets/screenshot.png)
 
@@ -47,7 +47,7 @@ Embora o site já esteja em deploy, você pode configurar e executar este projet
 
 ### Deploy
 
-O projeto está disponível em produção e pode ser acessado [aqui](https://vtssweb.onrender.com/) 
+O projeto está disponível em produção e pode ser acessado [aqui](https://vtssweb.vercel.app/) 
 **Observação**: Como estou utilizando a versão gratuita do Render, o primeiro acesso pode demorar um pouco para carregar.
 
 ### Uso
